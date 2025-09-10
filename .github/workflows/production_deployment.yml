@@ -26,4 +26,4 @@ jobs:
 
     - name: Запуск тестов
       run: |
-        python LR_4/manage.py test
+        python LR_4/manage.py test LR_4
