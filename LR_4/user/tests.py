@@ -29,14 +29,3 @@ class RegistrViewTests(APITestCase):
         )
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-<<<<<<< HEAD
-        self.assertEqual(response.data['status'], 'succes')
-        self.assertTrue(User.objects.filter(username='testuser').exists())
-=======
-<<<<<<< HEAD
-        self.assertEqual(response.data['status'], 'succes')
-        self.assertTrue(User.objects.filter(username='testuser').exists())
-=======
-        self.assertEqual(response.data['status'], 'succes')
->>>>>>> 79836ed (added requirements)
->>>>>>> 7c7822d (added requirements)
